@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap") * {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.login-container {
+  background-image: url(https://images.pexels.com/photos/370799/pexels-photo-370799.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 10%;
+}
+
+.card {
+  background-color: #ffffff80;
+  padding: 30px;
+  border-radius: 4%;
+  box-shadow: 3px 3px 1px 0px #00000070;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #3f8bc9;
+}
+
+.label-float input {
+  width: 100%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid #3f8bc9;
+  background-color: transparent;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all 0.3s ease-out;
+  border-radius: 0;
+}
+.label-float {
+  position: relative;
+  padding-top: 13px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.label-float input:focus {
+  border-bottom: 2px solid #41c9f1;
+}
+
+.label-float label {
+  color: #3f8bc9;
+  pointer-event: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 3px;
+  transition: all 0.3s ease-out;
+}
+
+.label-float input:focus + label {
+  font-size: 13px;
+  margin-top: 0;
+  /* color:  */
+}
+
+.button {
+  background-color: transparent;
+  border-color: transparent;
+  color: #3f8bc9;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease-out;
+}
+
+.button:hover {
+  background-color: #3f8bc9;
+  color: #fff;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.hr {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  widht: 60%;
+}
+
+p {
+  color: #3f8bc9;
+  font-size: 14pt;
+  text-align: center;
+}
+
+a {
+  color: #7a3077;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f8bc9;
+}
+
+/* Add your CSS styles here */
+.bordered {
+  border-collapse: collapse;
+  width: 700px;
+}
+
+.bordered th,
+.bordered td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.table,
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* header
+ */
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header styles */
+.header {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 20px; /* Add padding to the header */
+  margin-bottom: 40px;
+}
+
+.header__title {
+  margin: 0; /* Remove default margin */
+}
+/* Add your CSS styles here */
+.logout-btn {
+  position: absolute;
+  top: 25px;
+  right: 15px;
+}
+
+.logout-btn a {
+  color: #fff;
+  background-color: #f44336;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.login {
+  color: #fff;
+  background-color: #f44336;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+}
+
+.logout-btn a:hover,
+.login:hover {
+  background-color: #d32f2f;
+  border: white 2px solid;
+}
+
+#showDataBtnContainer {
+  margin-top: 20px;
+}
+
+#showDataBtn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#showDataBtn:hover {
+  background-color: #45a049;
+}
+
+@media only screen and (max-width: 600px) {
+  .bordered {
+    width: 100%; /* Make the table width 100% for smaller screens */
+  }
+
+  .bordered th,
+  .bordered td {
+    font-size: 14px; /* Reduce font size for smaller screens */
+  }
+}

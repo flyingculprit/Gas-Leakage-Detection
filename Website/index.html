@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="container">
+        <form id="loginForm">
+          <div class="card">
+            <h1>Sign In</h1>
+
+            <div class="label-float">
+              <input type="text" id="username" />
+              <label for="username">User Name</label>
+              <!-- Changed "user" to "username" -->
+            </div>
+
+            <div class="label-float">
+              <input type="password" id="password" />
+              <!-- Added placeholder text -->
+              <label for="password">Password</label>
+            </div>
+
+            <div class="justify-center">
+              <button class="login">Login</button>
+            </div>
+
+            <div>
+              <!-- <hr /> -->
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
